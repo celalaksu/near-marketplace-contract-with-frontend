@@ -1,0 +1,12 @@
+{
+  "homepage": "https://celalaksu.github.io/near-marketplace-contract",
+  "name": "near-marketplace-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "near-sdk-as": "^3.2.3"
+  },
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
